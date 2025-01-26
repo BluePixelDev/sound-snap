@@ -1,0 +1,21 @@
+{
+  "name": "com.bluepixel.audipool",
+  "displayName": "Audipool",
+  "version": "1.5.0",
+  "unity": "6000.0",
+  "description": "A lightweight audio source pooling system.",
+  "documentationUrl": "https://bluepixeldev.github.io/audipool",
+  "license": "MIT",
+  "author": {
+    "name": "Bluepixel",
+    "email": "bluepixeldev@gmail.com",
+    "url": "https://bluepixeldev.com"
+  },
+  "keywords": [
+    "audio",
+    "sfx",
+    "sound",
+    "pool",
+    "runtime"
+  ]
+}

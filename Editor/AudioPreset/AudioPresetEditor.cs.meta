@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: cb944ad8177842342a4eaafb362a119f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - dropzoneAsset: {fileID: 9197481963319205126, guid: 9cf2b017e161ccc468fb451942cb1ba2, type: 3}
+  - treeAsset: {fileID: 9197481963319205126, guid: fd2d054caa038da4ab2532cde5fb523a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
