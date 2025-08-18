@@ -1,31 +1,21 @@
 {
-    "name": "com.bluepixel.soundsnap",
-    "displayName": "SoundSnap",
+    "name": "com.bluepixel.aftertone",
+    "displayName": "Aftertone",
     "version": "1.0.0",
     "unity": "6000.0",
-    "description": "A lightweight, pooled one-shot audio system for Unity. Easily play spatialized sound effects with automatic resource management.",
+    "description": "A lightweight pooling system for one-shot SFX.",
     "author": {
-      "name": "Bluepixel",
-      "email": "bluepixeldev@gmail.com",
-      "url": "https://bluepixeldev.github.io"
+        "name": "Bluepixel",
+        "email": "bluepixeldev@gmail.com"
     },
     "keywords": [
-      "audio",
-      "sfx",
-      "sound",
-      "snap",
-      "pool",
-      "one-shot",
-      "runtime",
-      "tool"
-    ],
-    "dependencies": {},
-    "samples": [
-      {
-        "displayName": "Basic Usage Example",
-        "description": "Demonstrates how to use the SoundSnap system to play sound effects.",
-        "path": "Samples~/Basic"
-      }
+        "audio",
+        "sfx",
+        "sound",
+        "snap",
+        "pool",
+        "one-shot",
+        "runtime",
+        "tool"
     ]
-  }
-  
+}

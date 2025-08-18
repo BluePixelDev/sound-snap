@@ -1,0 +1,7 @@
+#progress-bar-pool > .unity-progress-bar > #unity-progress-bar > .unity-progress-bar__background {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#progress-bar-pool > #progress-bar-used-count > #unity-progress-bar > .unity-progress-bar__background > .unity-progress-bar__progress {
+    background-color: rgba(121, 202, 127, 0.65);
+}

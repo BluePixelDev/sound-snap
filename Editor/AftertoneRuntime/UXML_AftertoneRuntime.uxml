@@ -1,0 +1,16 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Aftertone/Editor/AftertoneRuntime/USS_AftertoneRuntime.uss?fileID=7433441132597879392&amp;guid=1cc1c845ae1010b4291197c34b8f3663&amp;type=3#USS_AftertoneRuntime" />
+    <engine:VisualElement style="flex-grow: 0; background-image: none; flex-shrink: 0; flex-direction: row; align-items: center; justify-content: center;">
+        <engine:VisualElement name="aftertone-logo" style="flex-grow: 0; flex-shrink: 0; width: 50px; height: 50px; background-image: url(&quot;project://database/Assets/Aftertone/Editor/Aftertone-Icon.png?fileID=2800000&amp;guid=8487923583ae0224f9c6bf1e5dfcbb94&amp;type=3#Aftertone-Icon&quot;);" />
+        <engine:Label text="Aftertone Runtime" style="font-size: 20px; -unity-font-style: bold;" />
+    </engine:VisualElement>
+    <engine:GroupBox>
+        <engine:Label text="This is a runtime component that handles audio sources. Please do not remove or add yourself." style="white-space: normal;" />
+        <engine:VisualElement style="flex-grow: 1; height: 10px;" />
+        <engine:Label text="Status" style="-unity-font-style: bold;" />
+        <engine:VisualElement name="progress-bar-pool" style="flex-grow: 0; height: 21px;">
+            <engine:ProgressBar value="0.75" name="progress-bar-pool-size" high-value="1" style="position: absolute; left: 0; right: 0;" />
+            <engine:ProgressBar value="0.5" name="progress-bar-used-count" high-value="1" style="background-color: rgba(0, 0, 0, 0); position: absolute; flex-grow: 1; right: 0; left: 0;" />
+        </engine:VisualElement>
+    </engine:GroupBox>
+</engine:UXML>
