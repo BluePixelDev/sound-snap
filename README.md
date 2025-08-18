@@ -1,5 +1,8 @@
 # Aftertone
 
+[![GitHub Repo stars](https://img.shields.io/github/stars/BluePixelDev/soundsnap?style=flat-square)](https://github.com/BluePixelDev/aftertone/stargazers)
+[![GitHub last commit](https://img.shields.io/github/last-commit/BluePixelDev/soundsnap?style=flat-square)](https://github.com/BluePixelDev/aftertone/commits/main)
+
 **Aftertone** is a Unity plugin designed for efficient audio management. t uses a pool of reusable audio sources to provide a fast, lightweight, and robust way of playing short-lived, spatial audio like explosions, footsteps, melee impacts, and more.
 
 # ⚡ Features
