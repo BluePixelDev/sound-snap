@@ -3,7 +3,7 @@
     "displayName": "Aftertone",
     "version": "1.0.0",
     "unity": "6000.0",
-    "description": "A lightweight pooling system for one-shot SFX.",
+    "description": "A lightweight audio source management using pools.",
     "author": {
         "name": "Bluepixel",
         "email": "bluepixeldev@gmail.com"
