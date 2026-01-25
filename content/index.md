@@ -3,24 +3,28 @@
 layout: home
 
 hero:
-  name: "Aftertone Docs"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: Audipool
+  text: Audio Pooling System For Unity
+  tagline: Quick / Simple / Performant
+  image:
+     src: /audipool_logo.png
+     alt: Audipool
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Get Started
+      link: /docs/getting-started
 
 features:
-  - title: Feature A
-    icon: 🛠️
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    icon: 😐
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Lightweight
+    icon: 📄
+    details: Small and simple, yet highly efficient and flexible.
+  - title: Eease of Use
+    icon: ⚡
+    details: Quickly set up and play audio with minimal code
+  - title: Performance
+    icon: 🚀
+    details: Optimized audio pooling reduces runtime allocations and improves performance in projects of all sizes
+  - title: Designer-Friendly
+    icon: 🎨
+    details: Author audio presets via <b>Assets</b> for consistent results without touching code.
 ---
