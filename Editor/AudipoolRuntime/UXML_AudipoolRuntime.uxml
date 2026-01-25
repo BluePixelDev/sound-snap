@@ -1,0 +1,11 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Plugins/unity-aftertone/Editor/AudipoolRuntime/USS_AudipoolRuntime.uss?fileID=7433441132597879392&amp;guid=1cc1c845ae1010b4291197c34b8f3663&amp;type=3#USS_AudipoolRuntime"/>
+    <engine:VisualElement style="flex-grow: 0; background-image: none; flex-shrink: 0; flex-direction: row; align-items: center; justify-content: center;">
+        <engine:VisualElement name="Audipool-logo" style="flex-grow: 0; flex-shrink: 0; width: 50px; height: 50px; background-image: url(&quot;project://database/Assets/Plugins/unity-aftertone/Editor/Audipool_Icon.png?fileID=2800000&amp;guid=eb9cc9c38b4d389468f0950022514ab7&amp;type=3#Audipool_Icon&quot;);"/>
+        <engine:Label text="Audipool Runtime" style="font-size: 20px; -unity-font-style: bold;"/>
+    </engine:VisualElement>
+    <engine:GroupBox>
+        <engine:Label text="This is a runtime component that handles audio sources. Please do not remove or add yourself." style="white-space: normal;"/>
+        <engine:VisualElement style="flex-grow: 1; height: 10px;"/>
+    </engine:GroupBox>
+</engine:UXML>

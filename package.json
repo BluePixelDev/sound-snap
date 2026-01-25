@@ -1,21 +1,21 @@
 {
-    "name": "com.bluepixel.aftertone",
-    "displayName": "Aftertone",
-    "version": "1.0.0",
-    "unity": "6000.0",
-    "description": "A lightweight audio source management using pools.",
-    "author": {
-        "name": "Bluepixel",
-        "email": "bluepixeldev@gmail.com"
-    },
-    "keywords": [
-        "audio",
-        "sfx",
-        "sound",
-        "snap",
-        "pool",
-        "one-shot",
-        "runtime",
-        "tool"
-    ]
+  "name": "com.bluepixel.audipool",
+  "displayName": "Audipool",
+  "version": "1.5.0",
+  "unity": "6000.0",
+  "description": "A lightweight audio source pooling system.",
+  "documentationUrl": "https://bluepixeldev.github.io/audipool",
+  "license": "MIT",
+  "author": {
+    "name": "Bluepixel",
+    "email": "bluepixeldev@gmail.com",
+    "url": "https://bluepixeldev.com"
+  },
+  "keywords": [
+    "audio",
+    "sfx",
+    "sound",
+    "pool",
+    "runtime"
+  ]
 }

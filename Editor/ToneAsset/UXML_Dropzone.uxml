@@ -1,5 +1,0 @@
-<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
-    <engine:VisualElement name="dropzone-area" style="flex-grow: 0; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; margin-top: 2px; margin-right: 2px; margin-bottom: 2px; margin-left: 2px; border-left-color: rgba(255, 255, 255, 0.25); border-right-color: rgba(255, 255, 255, 0.25); border-top-color: rgba(255, 255, 255, 0.25); border-bottom-color: rgba(255, 255, 255, 0.25); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px;">
-        <engine:Label text="Drop &lt;b&gt;AudioSource&lt;/b&gt; Here" name="dropzone-label" style="-unity-text-align: upper-center;" />
-    </engine:VisualElement>
-</engine:UXML>

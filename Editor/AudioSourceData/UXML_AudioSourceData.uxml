@@ -1,0 +1,36 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement>
+        <uie:ObjectField label="Resource" type="UnityEngine.Audio.AudioResource, UnityEngine.AudioModule" binding-path="resource"/>
+        <uie:ObjectField label="Mixer Group" type="UnityEngine.Audio.AudioMixerGroup, UnityEngine.AudioModule" binding-path="mixerGroup"/>
+        <ui:Label text="Audio Settings" style="margin-top: 10px; -unity-font-style: bold;"/>
+        <ui:UnsignedIntegerField label="Priority" value="128" max-length="256" binding-path="priority"/>
+        <ui:VisualElement name="volume-field" style="flex-grow: 1; flex-direction: row;">
+            <ui:Slider label="Volume" value="42" high-value="1" binding-path="volume" style="flex-grow: 1;"/>
+            <ui:FloatField value="1" binding-path="volume" style="width: 50px;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="pitch-field" style="flex-grow: 1; flex-direction: row;">
+            <ui:Slider label="Pitch" value="42" high-value="3" binding-path="pitch" low-value="0.5" style="flex-grow: 1;"/>
+            <ui:FloatField value="42.2" binding-path="pitch" style="width: 50px;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="pan-field" style="flex-grow: 1; flex-direction: row;">
+            <ui:Slider label="PanStereo" value="0" high-value="1" binding-path="panStereo" low-value="-1" page-size="1" style="flex-grow: 1;"/>
+            <ui:FloatField value="42.2" binding-path="panStereo" style="width: 50px;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="spatial-field" style="flex-grow: 1; flex-direction: row;">
+            <ui:Slider label="Spatial Blend" value="1" high-value="1" binding-path="spatialBlend" low-value="0" page-size="1" style="flex-grow: 1;"/>
+            <ui:FloatField value="42.2" binding-path="spatialBlend" style="width: 50px;"/>
+        </ui:VisualElement>
+        <ui:Label text="3D Settings" enable-rich-text="false" style="margin-top: 10px; -unity-font-style: bold;"/>
+        <ui:VisualElement name="doppler-field" style="flex-grow: 1; flex-direction: row;">
+            <ui:Slider label="Dopler Level" value="1" high-value="1" binding-path="dopplerLevel" low-value="0" page-size="1" style="flex-grow: 1;"/>
+            <ui:FloatField value="42.2" binding-path="dopplerLevel" style="width: 50px;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="spread-field" style="flex-grow: 1; flex-direction: row;">
+            <ui:Slider label="Spread" value="1" high-value="360" binding-path="spread" low-value="0" page-size="1" style="flex-grow: 1;"/>
+            <ui:FloatField value="42.2" binding-path="spread" style="width: 50px;"/>
+        </ui:VisualElement>
+        <ui:EnumField label="Volume Rolloff" value="Center" type="UnityEngine.AudioRolloffMode, UnityEngine.AudioModule" binding-path="volumeRolloff"/>
+        <ui:FloatField label="Min Distance" value="42.2" hide-placeholder-on-focus="false" binding-path="minDistance"/>
+        <ui:FloatField label="Max Distance" value="42.2" binding-path="maxDistance"/>
+    </ui:VisualElement>
+</ui:UXML>

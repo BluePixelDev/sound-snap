@@ -1,0 +1,19 @@
+{
+    "name": "BP.Audipool.Editor",
+    "rootNamespace": "BP.Audipool.Editor",
+    "references": [
+        "GUID:6718ba46403a4f64b8c35c565930b4c9",
+        "GUID:9f843d4b38153f04b9cee0502d568525"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
