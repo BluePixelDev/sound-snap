@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   srcDir: "content",
   base: "/audipool/",
-  head: [["link", { rel: "icon", href: "/favicon.png" }]],
+  head: [["link", { rel: "icon", href: "favicon.png" }]],
 
   title: "Audipool",
   description: "Audipool-unity plugin documentation website",
